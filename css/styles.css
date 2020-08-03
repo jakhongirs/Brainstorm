@@ -1,0 +1,703 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    color: #7B7C8D;
+    font-weight: 400;
+}
+
+.container-fluid{
+    padding: 3% 10% 5%;
+}
+
+/* Hero Section Start */
+
+#hero{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    background-size: cover;
+}
+
+/* Navigation bar Start */
+.hero_nav{
+  margin: 0;
+  padding: 0;
+}
+
+.nav_anchor{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.nav_anchor:hover,
+.nav_anchor:active{
+    border-bottom: 2px solid #ECAE27;
+}
+
+.nav_button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    background-color: #009C8F;
+    border-color: #009C8F;
+}
+/* Navigation bar End */
+
+.hero_heading{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 145.5%;
+    color: black;
+    margin-top: 120px;
+}
+
+.hero_paragraph{
+    color: #7B7C8D;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.hero_button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.hero_button_right{
+    margin-left: 20px;
+    border-color: #009C8F;
+}
+
+.hero_button_left{
+    background-color: #009C8F;
+    border-color: #009C8F;
+}
+
+.hero_button_right:hover,
+.hero_button_right:active{
+     background-color: #ECAE27;
+     border-color: #ECAE27;
+}
+
+.hero_img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Hero Section End */
+
+
+
+/* Order Section Start */
+
+#order{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: white; 
+}
+
+#order .container-fluid{
+    padding: 5% 10% 5%;
+}
+
+.order_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.order_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #7B7C8D;
+    margin-bottom: 50px;
+}
+
+.order_card{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #F7F6F4;
+    border-radius: 20px;
+    vertical-align: middle;
+    box-shadow: 0px 2px 2px rgba(99, 99, 99, 0.692);
+}
+
+.order_card:hover,
+.order_card:active{
+    border: 1px solid #ECAE27;
+}
+
+.order_card_icons{
+    width: 20%;
+    margin: auto;
+}
+
+.order_card_heading{
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.order_card_paragraph{
+    font-weight: 400;
+    text-align: center;
+    color: #7B7C8D;
+}
+
+/* Order Section End */
+
+/* About Section Start */
+
+.vertical_align{
+    vertical-align: middle;
+}
+
+#about{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+#about .container-fluid{
+    padding: 5% 10% 5%;
+}
+
+.about_heading_top{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    color: #ECAE27;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.about_heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.about_paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7B7C8D;
+}
+
+.about_paragraph_highlighted_text{
+    font-weight: 500;
+    color: #E7783A;
+}
+
+.about_img{
+    /* mobile version: width: 100; */
+    width: 80%;
+    margin-left: 20%;
+}
+
+/* About Section End */
+
+
+/* Advantages Section Start */
+
+#advantages{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(225deg,#D7FFFE  0%, #FFFEFF 100%);
+}
+
+#advantages .container-fluid{
+    padding: 5% 10% 5%;
+}
+
+.advantages_img{
+    width: 80%;
+    margin-right: 20%;
+}
+
+.advantages_tick_icon{
+    display: inline-block;
+    margin-right: 5px;
+    color: #009C8F;
+}
+
+.advantages_list{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #E7783A;
+}
+
+
+/* Advantages Section End */
+
+/* Courses Section Start */
+
+#courses{
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#courses .container-fluid{
+    padding: 5% 10% 5%;
+}
+
+
+.courses_card{
+    text-align: center;
+    background-color: #F7F6F4;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(99, 99, 99, 0.692);
+}
+
+.courses_card:hover,
+.courses_card:active{
+    border: 1px solid #ECAE27;
+}
+
+.courses_card_img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.courses_card_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.courses_card_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #7B7C8D;
+}
+
+.ielts{
+    color: red;
+}
+
+.courses_card_button{
+    color: white;
+    background-color: #ECAE27;
+}
+
+.courses_card_button_ielts{
+    color: black;
+}
+
+.courses_card_button_ielts:hover,
+.courses_card_button_ielts:active{
+    background-color: #ECAE27;
+}
+
+/* Courses Section End */
+
+/* Feedback Section Start */
+
+#feedback{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+#feedback .container-fluid{
+    padding: 5% 0%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 0% 15% 0%;
+}
+
+.feedback_carousel_heading{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #7B7C8D;
+}
+
+.feedback_carousel_student_name{
+    color: #E7783A;
+    font-weight: 500;
+}
+
+.carousel_control_icon{
+    width: 20%;
+}
+
+.carousel_control_icon_previous{
+    transform: rotate(180deg);
+}
+/* Feedback Section End */
+
+/* Cashback Section Start */
+
+#cashback{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/cashback.jpg);
+    /* mobile: background-size: cover; */
+    background-size: contain;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+}
+
+#cashback .container-fluid{
+    padding: 5% 0%;
+}
+
+.cashback_heading{
+    color: white;
+}
+
+.cashback_paragraph{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cashback_sale_text{
+    color: #ECAE27;
+    font-weight: 600;
+}
+
+.cashback_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.cashback_button{
+    color: white;
+    background-color: #ECAE27;
+}
+
+/* Cashback Section End */
+
+
+/* Footer Section Start */
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white; 
+}
+
+#footer .container-fluid{
+    padding: 3% 10%;
+}
+
+.footer_logo_div{
+    margin-bottom: 40px;
+}
+
+.footer_icons_div{
+    margin-bottom: 20px;
+}
+
+.footer_icons{
+    margin-right: 20px;
+    color: #009C8F;
+}
+
+.footer_icons:hover,
+.footer_icons:active{
+    color: #ECAE27;
+}
+
+.footer_tel_number{
+    color: #009C8F;
+    margin-bottom: 20px;
+}
+
+.footer_copyright{
+    color: #009C8F;
+    font-size: 15px;
+}
+
+.footer_links_ul{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links_li{
+    margin-bottom: 20px;
+}
+
+.footer_links{
+    color: #7B7C8D;
+    font-weight: 400;
+}
+
+.footer_links:hover,
+.footer_links:active{
+    color: #ECAE27;
+    text-decoration: none;
+}
+
+.footer_map{
+    border: 2px solid #ECAE27;
+    margin-bottom: 10px;
+}
+
+.footer_address{
+    color: #009C8F;
+    font-size: 12px;
+}
+
+/* Footer Section End */
+
+/* Media Query */
+
+@media (max-width:960px){
+
+}
+
+@media (max-width:640px){
+
+html{
+    scroll-behavior: smooth;    
+}
+/* Hero Section */
+
+.hero_nav_logo{
+    width: 70%;
+}
+
+.hero_nav_logo_img{
+    width: 100%;
+}
+
+.navbar_ul{
+    text-align: center;
+}
+
+.nav_anchor:hover,
+.nav_anchor:active{
+    border-bottom: none;
+}
+
+.nav_button{
+    margin: 0px 60px;
+}
+
+.hero_heading{
+    margin-top: 50px;
+    font-size: 19.5px;
+}
+
+.hero_paragraph{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.br_none{
+    display: none;
+}
+
+.hero_button_right{
+    margin-left: 5px;
+}
+
+.hero_button{
+    font-size: 15px;
+}
+
+/* Order Section */
+
+#order .container-fluid{
+    padding: 10% 10%;
+}
+
+.order_heading{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.order_paragraph{
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.order_card{
+    width: 80%;
+    margin: auto;
+}
+
+.order_card_mobile{
+    margin-bottom: 20px;
+}
+
+.order_card_heading{
+    font-size: 15px;
+}
+
+.order_card_paragraph{
+    font-size: 12px;
+}
+
+/* About Section */
+
+#about .container-fluid{
+    padding: 10% 10%;
+}
+
+.about_heading_top{
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.about_heading{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.about_paragraph{
+    font-size: 12px;
+}
+
+.about_img{
+    /* mobile version: width: 100; */
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* Advantages Section */
+
+#advantages .container-fluid{
+    padding: 10% 10%;
+}
+
+.advantages_img{
+    width: 100%;
+    margin-right: 0%;
+}
+
+.advantages_order_mobile{
+    order: 2;
+}
+
+.advantages_order_mobile_2{
+    order: 1;
+}
+
+.advantages_heading_mobile{
+    font-size: 18px;
+}
+
+.advantages_list{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 25px;
+    color: #E7783A;
+}
+
+/* Courses Section */
+
+#courses .container-fluid{
+    padding: 10% 10%;
+}
+
+.courses_card_mobile{
+    margin-bottom: 20px;
+}
+
+/* Feedback Section */
+
+#feedback .container-fluid{
+    padding: 10% 0%;
+}
+
+.feedback_carousel_heading{
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.carousel-item{
+    padding: 0% 10%;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.feedback_carousel_student_name{
+    font-size: 10px;
+}
+
+/* Cashback Section */
+
+#cashback .container-fluid{
+    padding: 10% 0%;
+}
+
+#cashback{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cashback_title{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+/* Footer Section */
+
+#footer .container-fluid{
+    padding: 10% 10%;
+}
+
+.footer_logo_div{
+    margin-bottom: 20px;
+}
+
+.footer_links_none_in_mobile{
+    display: none;
+}
+
+.footer_icons_div{
+    margin-bottom: 10px;
+}
+
+.footer_tel_number{
+    margin-bottom: 10px;
+}
+
+.footer_links_li{
+    margin-bottom: 10px;
+}
+
+
+}
