@@ -26,6 +26,10 @@ html {
   padding: 0;
 }
 
+.navbar_ul{
+    white-space: nowrap;
+}
+
 .nav_anchor{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -428,6 +432,19 @@ html {
 .footer_tel_number{
     color: #009C8F;
     margin-bottom: 20px;
+}
+
+.footer_tel_number{
+    color: #009C8F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer_tel_number:active,
+.footer_tel_number:hover{
+    color: #ECAE27;
+    text-decoration: none;
 }
 
 .footer_copyright{
